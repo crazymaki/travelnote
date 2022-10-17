@@ -33,8 +33,8 @@ services:
    environment:
      MYSQL_ROOT_PASSWORD: root
      MYSQL_DATABASE: tarvelnote
-     MYSQL_USER: user
-     MYSQL_PASSWORD: password
+     MYSQL_USER: travelnote_user
+     MYSQL_PASSWORD: travelnote_pass
      TZ: 'Asia/Tokyo'
 
    # 起動時のコマンド
