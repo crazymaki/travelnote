@@ -18,7 +18,7 @@
 
 <div class="container mt-5 p-lg-5 bg-light">
 
-    <form>
+    <form method="post" action="user/login">
         <div class="form-group row">
             <label for="inputId" class="col-sm-2 col-form-label">ID</label>
             <div class="col-sm-10">
@@ -37,7 +37,6 @@
                 <button type="submit" class="btn btn-primary btn-block">ログイン</button>
             </div>
         </div>
-
     </form>
 
 </div>
